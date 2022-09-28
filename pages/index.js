@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Tassanee | Full Stack Developer</title>
+        {/* <title>Tassanee | Full Stack Developer</title>
         <meta name="description" content="I’m a Full Stack Developer" />
-        {/* <link rel="icon" href="/fav.png" /> */}
+        <link rel="icon" href="/fav.png" /> */}
       </Head>
     <Main />
     <About />
