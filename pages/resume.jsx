@@ -1,190 +1,151 @@
-import React from 'react';
-import Head from 'next/head';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import React from 'react'
+import Head from 'next/head'
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 
 const resume = () => {
   return (
     <>
       <Head>
-        <title>Clint | Resume</title>
-        <meta
-          name='description'
-          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
-        />
-        <link rel='icon' href='/fav.png' />
+        <title>Tassanee | Resume</title>
+        <meta name="description" content="I’m a full Stack Developer" />
+        <link rel="icon" href="/fav.png" />
       </Head>
 
-      <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
-        <h2 className='text-center'>Resume</h2>
-        <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
-          <div className='flex'>
+      <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
+        <h2 className="text-center">Resume</h2>
+        <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
+          <h2 className="text-center">Tassanee Atsawajuramanee</h2>
+          <div className="flex">
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
-              target='_blank'
-              rel='noreferrer'
+              href="https://www.linkedin.com/in/tassanee-atsawajuramanee-b0a72b248/"
+              target="_blank"
+              rel="noreferrer"
             >
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
             </a>
             <a
-              href='https://github.com/fireclint'
-              target='_blank'
-              rel='noreferrer'
+              href="https://github.com/tassanee-atsa"
+              target="_blank"
+              rel="noreferrer"
             >
               <FaGithub size={20} style={{ marginRight: '1rem' }} />
             </a>
           </div>
         </div>
-        <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
-          <div className='hidden sm:block'>
+        <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
+          <div className="hidden sm:block">
             <p>
-              Proven Leadership <span className='px-1'>|</span> Web Development{' '}
-              <span className='px-1'>|</span> Complex Problem Solving
+              Tel: 07789609773 <span className="px-1">|</span> Location: London,
+              UK <span className="px-1">|</span> Nationality: British Citizen
             </p>
           </div>
-          <div className='block sm:hidden'>
-            <p>Proven Leadership</p>
-            <p className='py-2'>Web Development</p>
-            <p>Complex Problem Solving</p>
+          <div className="block sm:hidden">
+            <p>Tel: 07789609773</p>
+            <p className="py-2">Location: London, UK</p>
+            <p>Nationality: British Citizen</p>
           </div>
         </div>
         <p>
-          Analytical, innovative, and motivated web development professional
-          with experience in customer service, team leadership, and
-          organizational effectiveness in fast-paced and challenging
-          environments. Adept at developing strategies and driving streamlined
-          operations. Diverse analytical skills, team collaboration, and
-          relationship building. Consummate professional, and motivated leader,
-          with solid interpersonal abilities and complex problem-solving skills.
-          Effective and proven track record of critical thinking, idea
-          generation, and optimizing efficiencies.
+          I settled in the UK in 2014 with my partner and became a British
+          Citizen. After starting a family, I retrained as a full stack web
+          developer. I chose this path because I wanted to work in a creative
+          field where I could solve interesting problems with other people. I
+          applied for and successfully completed the School of Code bootcamp. It
+          gave me the opportunity to work on several coding projects in small,
+          collaborative teams. Although the bootcamp was hard and I still have a
+          lot to learn, I really enjoyed the experience. It gave me the
+          confidence and skills I need to start working in the industry. I’m
+          currently looking for my first job in my new career.
         </p>
 
         {/* Skills */}
-        <div className='text-center py-4'>
-          <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
-          <p className='py-2'>
-            <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span>Front-End Web Developer
-            <span className='px-2'>|</span> HTML
-            <span className='px-2'>|</span>CSS
-            <span className='px-2'>|</span>Javascript
-            <span className='px-2'>|</span>React
-            <span className='px-2'>|</span>Next JS
-            <span className='px-2'>|</span>SQL
-            <span className='px-2'>|</span>NoSQL
-            <span className='px-2'>|</span>Redux
-            <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
-            <span className='px-2'>|</span> RESTAPI
+        <div className="text-center py-4">
+          <h5 className="text-center underline text-[18px] py-2">Skills</h5>
+          <p className="py-2">
+            <span className="font-bold">Technical Skills</span>
+            <span className="px-2">|</span> HTML
+            <span className="px-2">|</span>CSS
+            <span className="px-2">|</span>Javascript
+            <span className="px-2">|</span>React
+            <span className="px-2">|</span>Next JS
+            <span className="px-2">|</span>SQL
+            <span className="px-2">|</span>MongoDB
+            <span className="px-2">|</span>Typescript
+            <span className="px-2">|</span>Tailwind
+            <span className="px-2">|</span>Firebase
+            <span className="px-2">|</span>Heroku
           </p>
-          <p className='py-2'>
+          {/* <p className='py-2'>
             <span className='font-bold'>Amazon Web Services</span>
             <span className='px-2'>|</span>Amazon Web Services Cloud
             Practitioner
-          </p>
+          </p> */}
         </div>
 
-        <h5 className='text-center underline text-[18px] py-4'>
-          Professional Experience
-        </h5>
-        {/* Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold italic'>
-            INFINITE TECH
-            </span>
-            <span className='px-2'>|</span>Dallas, TX
+        <h5 className="text-center underline text-[18px] py-4">EDUCATION</h5>
+        {/* Education */}
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">Full Stack Web Bootcamp</span>
           </p>
-          <p className='py-1 italic'>Front End Web Developer & Web Master (2013 - Current)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript.
-            </li>
-            <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
-            </li>
-            <li>
-              Worked directly with a diverse client base to understand and
-              implement multiple technologies and programs.
-            </li>
-            <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
-            </li>
-          </ul>
+          <p className="py-1 italic">School of Code, Remote</p>
+          <p className="py-1 italic">April 2022 - August 2022</p>
         </div>
 
-
-        {/* Personal Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold italic'>
-              Teaching & Mentoring Web Development
+        {/* Education */}
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">
+              MSc International Management
             </span>
-            <span className='px-2'>|</span>Dallas, TX
           </p>
-          <p className='py-1 italic'>Code Commerce - Youtube Channel (2021 - Current)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              In 2021 I started “Code Commerce”, a YouTube channel focused on
-              sharing what I’m learning in web development, specifically
-              front-end development.
-            </li>
-            <li>
-              Private 1 on 1 Zoom coaching calls related to web development.
-              More specifically debugging, teaching basic web development
-              concepts and code reviews.
-            </li>
-          </ul>
+          <p className="py-1 italic">Strathclyde University, Glasgow, UK</p>
+          <p className="py-1 italic">September 2007 - November 2008</p>
+        </div>
+
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">
+              BEng Electronic and Computer Engineering
+            </span>
+          </p>
+          <p className="py-1 italic">
+            Nottingham University, UK & Thammasat University, Thailand
+          </p>
+          <p className="py-1 italic">May 2002 - July 2006</p>
         </div>
 
         {/*  */}
-        <h5 className='text-center underline text-[18px] py-4'>
-          Other Professional Experience
-        </h5>
-      
+        <h5 className="text-center underline text-[18px] py-4">EXPERIENCE</h5>
+
         {/* Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold'>CITY OF SHERMAN, TX</span>
-            <span className='px-2'>|</span>Sherman, TX
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold">Operations Manager</span>
           </p>
-          <p className='py-1 italic'>Paramedic / Firefighter (2010 – 2019)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
-            </li>
-            <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
-            </li>
-            <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
-            </li>
-            <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
-            </li>
-            <li>
-              Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
-            </li>
-          </ul>
+          <p className="py-1 italic">Sarayut Ltd, Buriram, Thailand</p>
+          <p className="py-1 italic">February 2011 - June 2014</p>
+        </div>
+
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold">International Marketing and Business Analyst</span>
+          </p>
+          <p className="py-1 italic">AP Frozen Food Co., Ltd. (Apitoon Group) Bangkok, Thailand</p>
+          <p className="py-1 italic">March 2010 - January 2011</p>
+        </div>
+
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold">
+Sales and Marketing Associate</span>
+          </p>
+          <p className="py-1 italic">Foster Marketing Co., Ltd. London, UK</p>
+          <p className="py-1 italic">October 2006 - March 2007</p>
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default resume;
+export default resume

@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../public/assets/about.jpg';
+import Tassanee from '../public/assets/tassanee.jpeg';
 
 const About = () => {
   return (
@@ -11,25 +11,16 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
             About
           </p>
-          <h2 className='py-4'>Who I Am</h2>
+          <h2 className='py-4'></h2>
           <p className='py-2 text-gray-600'>
-            / / I am not your average developer
+         
           </p>
           <p className='py-2 text-gray-600'>
-            I have spent the last 12 years in the fire service working as a
-            professional firefighter/paramedic. I have always had a knack for
-            technology and working with computers. In 2019 I started working
-            with HTML and CSS to make some minor edits on a small business
-            website that I was operating. What I thought was just a few small
-            edits turned into a love for programming.
+          I settled in the UK in 2014 with my partner and became a British Citizen. After starting a family, I retrained as a full stack web developer.
+I chose this path because I wanted to work in a creative field where I could solve interesting problems with other people. I applied for and successfully completed the School of Code bootcamp. It gave me the opportunity to work on several coding projects in small, collaborative teams.
           </p>
           <p className='py-2 text-gray-600'>
-            Fascinated with how intricate programming can be I was quickly drawn
-            to learn more. I started learning javascript and was even more
-            enthused with making websites interactive. I then started
-            freelancing for e-commerce companies on the Shopify platform. I am
-            now spending my time building projects with React JS, Firebase, and
-            learning new technologies.
+          Although the bootcamp was hard and I still have a lot to learn, I really enjoyed the experience. It gave me the confidence and skills I need to start working in the industry. I’m currently looking for my first job in my new career.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
@@ -38,7 +29,7 @@ const About = () => {
           </Link>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image src={AboutImg} className='rounded-xl' alt='/' />
+          <Image src={Tassanee} className='rounded-xl' alt='/' />
         </div>
       </div>
     </div>
