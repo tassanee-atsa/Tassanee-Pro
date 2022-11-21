@@ -12,24 +12,7 @@ const Navbar = () => {
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState('#ecf0f3');
   const [linkColor, setLinkColor] = useState('#1f2937');
-  // const [position, setPosition] = useState('fixed')
-  // const router = useRouter();
-
-  // useEffect(() => {
-  //   if (
-  //     router.asPath === '/property' ||
-  //     router.asPath === '/crypto' ||
-  //     router.asPath === '/netflix' ||
-  //     router.asPath === '/twitch'
-  //   ) {
-  //     setNavBg('transparent');
-  //     setLinkColor('#ecf0f3');
-  //   } else {
-  //     setNavBg('#ecf0f3');
-  //     setLinkColor('#1f2937');
-  //   }
-  // }, [router]);
-
+  
   const handleNav = () => {
     setNav(!nav);
   };
@@ -55,7 +38,7 @@ const Navbar = () => {
       }
     >
       <div className='flex justify-between items-center w-full h-full pt-5 px-2 2xl:px-16'>
-        <Link href='/'>
+        {/* <Link href='/'>
           <a>
             <Image
               src= {logo}
@@ -65,7 +48,7 @@ const Navbar = () => {
               className='cursor-pointer'
             />
           </a>
-        </Link>
+        </Link> */}
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b'>
