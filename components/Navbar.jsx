@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
-import logo from '../public/assets/logo.png'
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -98,7 +98,7 @@ const Navbar = () => {
         >
           <div>
             <div className='flex w-full items-center justify-between'>
-              <Link href='/'>
+              {/* <Link href='/'>
                 <a>
                   <Image
                     src={logo}
@@ -107,7 +107,7 @@ const Navbar = () => {
                     alt='/'
                   />
                 </a>
-              </Link>
+              </Link> */}
               <div
                 onClick={handleNav}
                 className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'
